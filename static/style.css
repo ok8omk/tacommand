@@ -1,0 +1,6 @@
+#table { display:table; border-collapse:separate; border-spacing: 5px 5px;                     margin: 20px; }
+#table .row { display:table-row; }
+#table .seat { display:table-cell; width:30px; height:40px; font-size: 12px;                     border:solid 2px black; border-radius: 5px;                     text-align: center; vertical-align: middle;}
+#table .dummy-col { width: 10px; visibility:hidden; }
+#table .dummy-row .dummy-col { height: 20px; visibility:hidden; }
+#table .row #seat-116 { background-color:#ffce00; color:red; }
